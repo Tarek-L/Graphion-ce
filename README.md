@@ -1,12 +1,12 @@
 
 # First we Have to do the learning
 
-## Dependencies:
+## Building:
 
-for Dependencies i will update this section here
-for header files i will commit them,
-for static and shared lib it is up to the user to get them to their correct place
+to build an main.cpp just run
 
 ```
-compile or download libglfw3.a // put it in the path ./deps/GLFW/
+cmake (any flags you want for building glfw) -B build
+cmake --build build
 ```
+
